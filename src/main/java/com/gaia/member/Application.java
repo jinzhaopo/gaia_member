@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableConfigurationProperties
 @ComponentScan(basePackages = { "com.nt.framework", "com.gaia" })
 @ServletComponentScan(basePackages = { "com.nt.framework", "com.gaia.member" })
-@MapperScan(basePackages = { "com.gaia.survey.member","com.nt.framework" })
+@MapperScan(basePackages = { "com.gaia.member.mapper","com.nt.framework.mapper" })
 public class Application {
 
 	public static void main(String[] args) {
